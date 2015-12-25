@@ -1,0 +1,16 @@
+ul,li,h4{ margin: 0; padding: 0; list-style: none;}
+.fold_wrap{ width: 1022px; height: 260px; margin: 40px auto;}
+#sm{ width: 1022px; height: 260px;}
+#sm .mask_b{ position: absolute; width:100%; height: 100%; z-index: 5; background:rgba(60,60,60,0.5);}
+#sm .mask_b h4{ color: #fff; width:20px; font-size:20px; margin-left:45%; margin-top:20%;}
+#sm li{ float: left; position: relative; width:146px; height: 260px;}
+#sm li a{ position: absolute; width:100%; height: 100%;  z-index: 2;}
+#sm .pic_auto{ position: absolute;  width:100%; height: 100%; z-index: 1;}
+#sm .pic_auto1{ background:url(images/20150120_ifold1.jpg) center 0 no-repeat;}
+#sm .pic_auto2{ background:url(images/20150120_ifold2.jpg) center 0 no-repeat;}
+#sm .pic_auto3{ background:url(images/20150120_ifold3.jpg) center 0 no-repeat;}
+#sm .pic_auto4{ background:url(images/20150120_ifold4.jpg) center 0 no-repeat;}
+#sm .pic_auto5{ background:url(images/20150120_ifold5.jpg) center 0 no-repeat;}
+#sm .pic_auto6{ background:url(images/20150120_ifold6.jpg) center 0 no-repeat;}
+#sm .pic_auto7{ background:url(images/20150120_ifold7.jpg) center 0 no-repeat;}
+.adv_intro { position:absolute; z-index:-1; }
